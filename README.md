@@ -1,3 +1,3 @@
 # GammaTrade
  Basic Analysis Tool
- MA functio added
+ MA function added
