@@ -1,6 +1,9 @@
 import loadPrice
+import priceClean
+#import pandas as pd
 def main():
-    df = loadPrice.loadPrice()
-
+    df = priceClean.priceClean(loadPrice.loadPrice())
+    print(df)
+	
 if __name__ == "__main__":
     main()
